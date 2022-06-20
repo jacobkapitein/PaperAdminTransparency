@@ -1,0 +1,4 @@
+# Discord Bot Token
+discordKey: CHANGEME
+# Discord Channel to send messages in
+discordChannelID: CHANGEME

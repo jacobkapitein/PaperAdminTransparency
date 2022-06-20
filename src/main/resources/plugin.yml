@@ -1,0 +1,9 @@
+name: SkeetSkeetAdminTransparency
+version: '${project.version}'
+main: nl.skeetskeet.admintransparency.Main
+api-version: 1.19
+prefix: AdminTransparency
+load: STARTUP
+authors: [ JacobK ]
+description: This PaperMC plugin makes console commands transparent by logging commands to a public Discord channel. This way admin abuse on an SMP is not possible.
+website: skeetskeet.nl

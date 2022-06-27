@@ -14,7 +14,7 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("Admin Transparency plugin starting...");
+        this.getLogger().info("Admin Transparency plugin enabling...");
 
         // If config doesn't exist yet, create one
         this.saveDefaultConfig();
@@ -25,6 +25,9 @@ public final class Main extends JavaPlugin {
 
         // Initiate listeners
         getServer().getPluginManager().registerEvents(new CommandSent(client, config), this);
+
+
+        this.getLogger().info("Admin Transparency plugin enabled!");
     }
 
     @Override
